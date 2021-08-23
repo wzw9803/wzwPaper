@@ -1,0 +1,64 @@
+{
+    "root": {
+        "data": {
+            "id": "cdqjml303hc0",
+            "created": 1629686435695,
+            "text": "UML类图"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdqjpmk36xs0",
+                    "created": 1629686673997,
+                    "text": "类的继承结构",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdqjotniifc0",
+                            "created": 1629686611078,
+                            "text": "泛化关系(generalization)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdqjqeup5k80",
+                                    "created": 1629686735589,
+                                    "text": "描述",
+                                    "note": "两个对象之间如果可以用 is-a 来表示，就是继承关系：（..是..)\neg：自行车是车、猫是动物\neg：汽车在现实中有实现，可用汽车定义具体的对象；汽车与SUV之间为泛化关系；"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdqjt3mor6o0",
+                                    "created": 1629686946252,
+                                    "text": " ",
+                                    "image": "https://www.jianguoyun.com/p/DcaaqjsQt8OvCRjRzIkE",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 512,
+                                        "height": 512
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdqjpzvfdm80",
+                            "created": 1629686702981,
+                            "text": "实现关系(realize)"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
