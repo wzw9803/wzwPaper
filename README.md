@@ -14,6 +14,10 @@ Keep Learning.
 
 <https://docsify.js.org/#/?id=docsify>
 
+## 百度脑图帮助
+
+<https://naotu.baidu.com/home>
+
 ## extensions
 
 VSCode 扩展工具安装列表:

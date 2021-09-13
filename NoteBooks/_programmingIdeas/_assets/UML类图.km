@@ -32,14 +32,14 @@
                             },
                             {
                                 "data": {
-                                    "id": "cdqjt3mor6o0",
-                                    "created": 1629686946252,
-                                    "text": " ",
-                                    "image": "https://www.jianguoyun.com/p/DcaaqjsQt8OvCRjRzIkE",
+                                    "id": "cdqkhru9z1k0",
+                                    "created": 1629688879694,
+                                    "text": "泛化关系用一条带空心箭头的直接表示；",
+                                    "image": "https://github.com/wzw9803/wzwPaper/blob/main/NoteBooks/_programmingIdeas/_assets/Snipaste_2021-08-23_10-52-56.png",
                                     "imageTitle": "",
                                     "imageSize": {
-                                        "width": 512,
-                                        "height": 512
+                                        "width": 0,
+                                        "height": 0
                                     }
                                 },
                                 "children": []
@@ -52,7 +52,144 @@
                             "created": 1629686702981,
                             "text": "实现关系(realize)"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdql7rkxogw0",
+                                    "created": 1629690916597,
+                                    "text": "描述",
+                                    "note": "eg：”车”为一个抽象概念，在现实中并无法直接用来定义对象；只有指明具体的子类(汽车还是自行车)，才 可以用来定义对象（”车”这个类在C++中用抽象类表示，在JAVA中有接口这个概念，更容易理解）\n> 注：最终代码中，实现关系表现为继承抽象类；"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdqm017w9hc0",
+                                    "created": 1629693131774,
+                                    "text": "实现关系用一条带空心箭头的虚线表示；",
+                                    "image": "https://github.com/wzw9803/wzwPaper/blob/main/NoteBooks/_programmingIdeas/_assets/Snipaste_2021-08-23_12-32-29.png",
+                                    "imageTitle": "",
+                                    "imageSize": {
+                                        "width": 0,
+                                        "height": 0
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdqm1um0w200",
+                    "created": 1629693274118,
+                    "text": "实体对象之间的关系"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdqm228xsr40",
+                            "created": 1629693290741,
+                            "text": "聚合关系(aggregation)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdqm2mrbyn40",
+                                    "created": 1629693335389,
+                                    "text": "描述",
+                                    "note": "聚合关系用于表示实体对象之间的关系，表示整体由部分构成的语义；例如一个部门由多个员工组成；\n\n与组合关系不同的是，整体和部分不是强依赖的，即使整体不存在了，部分仍然存在；例如， 部门撤销了，人员不会消失，他们依然存在；"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdqm3gzk2ns0",
+                                    "created": 1629693401190,
+                                    "text": "聚合关系用一条带空心菱形箭头的直线表示"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdqm3s38d1k0",
+                            "created": 1629693425357,
+                            "text": "组合关系(composition)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdqm43ilch40",
+                                    "created": 1629693450230,
+                                    "text": "描述",
+                                    "note": "与聚合关系一样，组合关系同样表示整体由部分构成的语义；比如公司由多个部门组成；\n\n但组合关系是一种强依赖的特殊聚合关系，如果整体不存在了，则部分也不存在了；例如， 公司不存在了，部门也将不存在了；"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdqm4niu6lc0",
+                                    "created": 1629693493781,
+                                    "text": "组合关系用一条带实心菱形箭头直线表示"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdqm4re0zm00",
+                            "created": 1629693502197,
+                            "text": "关联关系(association)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdqm57dtin40",
+                                    "created": 1629693537013,
+                                    "text": "描述",
+                                    "note": "它描述不同类的对象之间的结构关系；它是一种静态关系， 通常与运行状态无关，一般由常识等因素决定的；它一般用来定义对象之间静态的、天然的结构； 所以，关联关系是一种“强关联”的关系；\n\n比如，乘车人和车票之间就是一种关联关系；学生和学校就是一种关联关系；\n\n关联关系默认不强调方向，表示对象间相互知道；如果特别强调方向，如下图，表示A知道B，但 B不知道A；\n\n图\nA -> B\n\n> 注：在最终代码中，关联对象通常是以成员变量的形式实现的；"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdqm6wswiao0",
+                                    "created": 1629693670709,
+                                    "text": "关联关系是用一条直线表示"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdqm75sx2lk0",
+                            "created": 1629693690301,
+                            "text": "依赖关系(dependency)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdqm7dzu8y00",
+                                    "created": 1629693708133,
+                                    "text": "描述",
+                                    "note": "如下图表示A依赖于B；他描述一个对象在运行期间会用到另一个对象的关系；\n\n图\nA ---> B\n\n与关联关系不同的是，它是一种临时性的关系，通常在运行期间产生，并且随着运行时的变化； 依赖关系也可能发生变化；\n\n显然，依赖也有方向，双向依赖是一种非常糟糕的结构，我们总是应该保持单向依赖，杜绝双向依赖的产生；\n\n> 注：在最终代码中，依赖关系体现为类构造方法及类方法的传入参数，箭头的指向为调用关系；依赖关系除了临时知道对方外，还是“使用”对方的方法和属性；"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdqm95eipao0",
+                                    "created": 1629693846158,
+                                    "text": "依赖关系是用一套带箭头的虚线表示"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
